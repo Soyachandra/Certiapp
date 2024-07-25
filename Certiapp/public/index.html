@@ -19,9 +19,17 @@
           <img src="Logo.png" width="200" height="200"></div>
           <input type="text" id="certificateID" name="certificateID" class="border-2 border-zinc-950 mb-2"
           placeholder="Enter Certificate ID to View">
+          <div>
           <button class="border-1 bg-cyan-700 px-8 py-4 rounded text-white" onClick='redirectToCertificate()'>
             Search
         </button>
+                  <button class="border-1 bg-cyan-700 px-8 py-4 rounded text-white" onClick='redirectToCertificate1()'>
+            Update
+        </button>
+        <button class="border-1 bg-cyan-700 px-8 py-4 rounded text-white" onClick='redirectToCertificate2()'>
+          Delete
+        </button>
+        </div>
         </div>
 
         <script>
@@ -39,6 +47,7 @@
             // Redirect to the constructed URL
             window.location.href = url;
         }
+        
         </script>
 </body>
 
